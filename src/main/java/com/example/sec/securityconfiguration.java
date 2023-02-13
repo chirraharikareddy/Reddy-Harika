@@ -16,6 +16,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 public class securityconfiguration extends WebSecurityConfigurerAdapter{
 	@Override
 	@Bean
+	//hii
 	protected UserDetailsService userDetailsService() {
 		UserDetails ud1=User.builder()
 				 .username("sony")

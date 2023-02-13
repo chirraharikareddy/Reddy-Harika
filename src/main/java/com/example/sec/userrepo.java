@@ -11,5 +11,5 @@ public interface userrepo extends JpaRepository<ouruser, Integer>{
 	public abstract ouruser getUserName(String username);
 	@Query("select r from ouruser u join u.roles r where u.name=?1")
 	public abstract List<role> getroles(String username);
-
+//helo hi
 }
