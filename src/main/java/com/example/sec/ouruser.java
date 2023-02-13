@@ -18,6 +18,7 @@ public class ouruser {
 	@Id
 	@GeneratedValue
 	private int id;
+	//hello
 	private String name;
 	private String password;
 	@ManyToMany
